@@ -1,4 +1,4 @@
-Meteor.loginWithBufferApp = function(options, callback){
+Meteor.loginWithBuffer = function(options, callback){
   // support callback with no options
   if( !callback && (typeof options === 'function') ){
     callback = options
