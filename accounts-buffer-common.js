@@ -1,4 +1,4 @@
-Accounts.oauth.registerService('bufferapp')
-if( !Accounts.bufferapp ){
-  Accounts.bufferapp = {}
+Accounts.oauth.registerService('buffer')
+if( !Accounts.buffer ){
+  Accounts.buffer = {}
 }
