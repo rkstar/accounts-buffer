@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rkstar:accounts-buffer',
-  version: '1.0.3',
+  version: '1.0.4',
   // Brief, one-line summary of the package.
   summary: 'Accounts service for Buffer accounts',
   // URL to the Git repository containing the source code for this package.
@@ -17,7 +17,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base')
 
   api.use('accounts-oauth')
-  api.use('rkstar:buffer@1.0.2')
+  api.use('rkstar:buffer@1.1.0')
 
   api.addFiles('accounts-buffer-common.js')
   api.addFiles('accounts-buffer-client.js', 'client')
