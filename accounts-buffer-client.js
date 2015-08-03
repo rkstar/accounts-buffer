@@ -6,5 +6,5 @@ Meteor.loginWithBuffer = function(options, callback){
   }
 
   var credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback)
-  Buffer.requestCredential(options, credentialRequestCompleteCallback)
+  BufferService.requestCredential(options, credentialRequestCompleteCallback)
 }
