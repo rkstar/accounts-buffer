@@ -17,7 +17,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base')
 
   api.use('accounts-oauth')
-  api.use('rkstar:buffer')
+  api.use('rkstar:buffer@1.2.0')
 
   api.addFiles('accounts-buffer-common.js')
   api.addFiles('accounts-buffer-client.js', 'client')
